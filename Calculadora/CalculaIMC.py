@@ -11,6 +11,7 @@ def interpretar_imc(imc):
         return "Sobrepeso"
     else:
         return "Obesidad"
+        
 
 print("Calculadora de Índice de Masa Corporal (IMC)")
 peso = float(input("Ingresa tu peso en kilogramos: "))
