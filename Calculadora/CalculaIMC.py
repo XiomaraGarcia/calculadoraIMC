@@ -16,6 +16,7 @@ print("Calculadora de Índice de Masa Corporal (IMC)")
 peso = float(input("Ingresa tu peso en kilogramos: "))
 altura = float(input("Ingresa tu altura en metros: "))
 
+
 imc = calcular_imc(peso, altura)
 print("Tu Índice de Masa Corporal (IMC) es:", imc)
 interpretacion = interpretar_imc(imc)
